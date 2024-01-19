@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: rgb(0, 146, 24);
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation-list li {
+    margin-right: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+font-weight: 550;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+   border-color: black;
+  
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons button {
+    background-color: #c4ffa5;
+   border-style:solid ;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-color: black;
+    font-weight: 550;
+}
+
+.auth-buttons button:hover {
+    background-color: #bcdebd;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
